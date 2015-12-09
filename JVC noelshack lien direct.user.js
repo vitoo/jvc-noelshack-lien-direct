@@ -7,6 +7,8 @@
 // @match        *.jeuxvideo.com/forums*
 // @match        *.jeuxvideo.com/messages*
 // @grant        none
+// @downloadURL  https://raw.githubusercontent.com/vitoo/JVC-noelshack-lien-direct/master/JVC%20noelshack%20lien%20direct.user.js
+// @updateURL 	 https://raw.githubusercontent.com/vitoo/JVC-noelshack-lien-direct/master/JVC%20noelshack%20lien%20direct.user.js
 // ==/UserScript==
 
 jQuery('a[data-def=NOELSHACK]').each(function () {    
