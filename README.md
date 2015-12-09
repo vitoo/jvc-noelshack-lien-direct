@@ -1,5 +1,5 @@
 # JVC-noelshack-lien-direct
-JVC noelshack lien direct permet d'ouvrir les liens noelshack vers l'image directement.
+JVC noelshack lien direct : permet d'ouvrir sur les sites jeuxvideo.com les liens noelshack vers l'image directement.
 
 ## Prérequis
 
