@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         JVC noelshack lien direct
 // @namespace    https://github.com/vitoo
-// @version      0.2
+// @version      0.3
 // @description  Lien direct vers les images noelshacks
 // @author       vito
 // @match        *.jeuxvideo.com/forums*
