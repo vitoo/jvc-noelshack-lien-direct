@@ -7,6 +7,7 @@
 // @match        *.jeuxvideo.com/forums*
 // @match        *.jeuxvideo.com/messages*
 // @grant        none
+// @require 	 http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
 // @downloadURL  https://raw.githubusercontent.com/vitoo/JVC-noelshack-lien-direct/master/JVC%20noelshack%20lien%20direct.user.js
 // @updateURL 	 https://raw.githubusercontent.com/vitoo/JVC-noelshack-lien-direct/master/JVC%20noelshack%20lien%20direct.user.js
 // ==/UserScript==
