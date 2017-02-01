@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name         JVC noelshack lien direct
 // @namespace    https://github.com/vitoo
-// @version      0.3
+// @version      0.4
 // @description  Lien direct vers les images noelshacks
 // @author       vito
-// @match        *.jeuxvideo.com/forums*
-// @match        *.jeuxvideo.com/messages*
+// @match        http://www.jeuxvideo.com/forums*
+// @match        http://www.jeuxvideo.com/messages*
+// @match        https://www.jeuxvideo.com/forums*
+// @match        https://www.jeuxvideo.com/messages*
 // @grant        none
 // @require 	 http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
 // @downloadURL  https://raw.githubusercontent.com/vitoo/JVC-noelshack-lien-direct/master/JVC%20noelshack%20lien%20direct.user.js
