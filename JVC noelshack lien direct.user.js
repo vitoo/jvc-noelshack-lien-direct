@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         JVC noelshack lien direct
+// @name         Noelshack lien direct
 // @namespace    https://github.com/vitoo
-// @version      0.7
+// @version      0.8
 // @description  Lien direct vers les images noelshacks
 // @author       vito
 // @match        http://www.jeuxvideo.com/forums*
@@ -10,12 +10,13 @@
 // @match        https://www.jeuxvideo.com/messages*
 // @grant        none
 // @downloadURL  https://raw.githubusercontent.com/vitoo/JVC-noelshack-lien-direct/master/JVC%20noelshack%20lien%20direct.user.js
+// @run-at       document-end
 // @updateURL 	 https://raw.githubusercontent.com/vitoo/JVC-noelshack-lien-direct/master/JVC%20noelshack%20lien%20direct.user.js
 // ==/UserScript==
 
-window.addEventListener('load', function() {
-   var images = document.getElementsByClassName("img-shack");
 
+   var images = document.getElementsByClassName("img-shack");
+   var j = 0;
     for (var i = 0, len = images.length; i < len; i++) {
         var image = images[i];
         var src = image.src;
@@ -25,6 +26,8 @@ window.addEventListener('load', function() {
             var extension = parent.href.split(".").pop();
             var direct = src.replace(/(.*?)\/minis\/(.*)\.\w+/i, "$1/fichiers/$2." + extension);
             parent.href = direct;
+            j++;
         }
     }
-}, false);
+    //console.log("image",j);
+
